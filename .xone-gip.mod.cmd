@@ -1,0 +1,1 @@
+savedcmd_/home/zoro/xone/xone-gip.mod := printf '%s\n'   bus/bus.o bus/protocol.o auth/auth.o auth/crypto.o driver/common.o | awk '!x[$$0]++ { print("/home/zoro/xone/"$$0) }' > /home/zoro/xone/xone-gip.mod
